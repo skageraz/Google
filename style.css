@@ -1,5 +1,13 @@
 body a {
   text-decoration: none;
+  color : #666;
+
+
+}
+body {
+  margin: 0;
+  padding: 0;
+
 }
 
 #en_tete {
@@ -7,7 +15,9 @@ body a {
   justify-content: flex-end;
   margin: auto;
   word-spacing: 15px;
-  padding-right: 15px;
+  margin-right: 30px;
+  font-size: 13px;
+
   color: #757575;
 }
 
@@ -49,31 +59,66 @@ body a {
   border: none;
 }
 
+#bouton button:hover{
+  color: black;
+  border-style: solid ;
+  border-width: 1px ;
+  border-color: LightGrey ;
+}
+
 #langues {
   margin: 25px;
   font-family: Arial;
   font-size: small;
+
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+#langues a{
+  color: #1a0dab ;
 }
+
 
 footer ul li{
   display: inline;
-  padding: 0px 15px;
+  padding-right: 30px;
 
 }
+
+#france {
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: LightGrey;
+  color: #666;
+
+}
+
+footer div {
+font-size: small ;
+}
+
 #gauche {
   float: left;
   text-align: left;
-  width: 50%;
+
+
+
 }
 
 #droite {
   text-align: right;
   float: right;
-  width: 50%;
+
+
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+
+
+
 }
