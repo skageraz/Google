@@ -38,7 +38,7 @@ body {
 
 #logo {
   display: flex;
-  justify-content
+  justify-content: center;
 }
 
 #searchbar {
@@ -64,27 +64,25 @@ body {
 
 #bouton button:hover{
   color: black;
-  border-style: solid ;
-  border-width: 1px ;
-  border-color: LightGrey ;
+  border-style: solid;
+  border-width: 1px;
+  border-color: LightGrey;
 }
 
 #langues {
   margin: 25px;
   font-family: Arial;
   font-size: small;
-
 }
 
 #langues a{
-  color: #1a0dab ;
+  color: #1a0dab;
 }
 
 
 footer ul li{
   display: inline;
   padding-right: 30px;
-
 }
 
 #france {
@@ -100,7 +98,7 @@ footer ul li{
 }
 
 footer div {
-font-size: small ;
+  font-size: small;
 }
 
 #gauche {
