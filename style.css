@@ -38,9 +38,6 @@ body a {
   box-shadow: 0px 3px 5px 1px LightGrey;
 }
 
-#bouton {
-}
-
 #bouton button {
   width: 144px;
   height: 36px;
@@ -61,7 +58,7 @@ body a {
 footer {
   display: flex;
   flex-direction: column;
-  
+  position: absolute;
 }
 
 footer ul li{
@@ -71,8 +68,12 @@ footer ul li{
 }
 #gauche {
   float: left;
+  text-align: left;
+  width: 50%;
 }
 
 #droite {
+  text-align: right;
   float: right;
+  width: 50%;
 }
