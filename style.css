@@ -58,14 +58,17 @@ body a {
   font-size: small;
 }
 
-/* #footer {
-  word-spacing: 15px;
-} */
-
-#footer a {
-  link-spacing: 15px;
+footer {
+  display: flex;
+  flex-direction: column;
+  
 }
 
+footer ul li{
+  display: inline;
+  padding: 0px 15px;
+
+}
 #gauche {
   float: left;
 }
