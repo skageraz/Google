@@ -117,8 +117,9 @@ font-size: small ;
 }
 
 footer {
+  width: 60px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   width: 100%;
   position: absolute;
   bottom: 0;
